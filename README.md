@@ -17,4 +17,3 @@ The schema incorporates key relational database principles:
 * **Entities:** `users`, `categories`, `products`, `orders`, `order_items`
 * **Constraints:** `PRIMARY KEY`, `FOREIGN KEY`, `AUTO_INCREMENT`, `UNIQUE`, `NOT NULL`, `CHECK`, and `ON DELETE CASCADE`
 * **Relationships:** 1:M (Categories ➔ Products, Users ➔ Orders) and M:N (Orders ➔ Products via `order_items` junction table)
-*
